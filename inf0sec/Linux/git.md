@@ -5,7 +5,7 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/clockw0rkduck/c0de.git
+git remote add origin https://github.com/clockw0rkduck/n0tes.git
 git push -u origin main
 
 
@@ -33,6 +33,28 @@ git config --global credential.helper /usr/share/doc/git/contrib/credential/libs
 Create Personal Access token at: (https://github.com/settings/tokens/new)[This link]
 
 
-https://github.com/clockw0rkduck/c0de
+to configure git settings use: 
+```
+git config --global --edit
+```
 
+```
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = NAME
+	email = EMAIL
+username = USERNAME
+[credential]
+	helper = /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
+#	helper = /usr/local/bin/git-credential-manager
+[credential "https://dev.azure.com"]
+[core]
+	editor = codium --wait
+	autocrlf = input
+[diff]
+	tool = codium
+[difftool "codium"]
+	cmd = "codium --wait --diff $LOCAL $REMOTE"
 
+```
