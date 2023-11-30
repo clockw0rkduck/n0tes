@@ -59,4 +59,4 @@ username = USERNAME
 
 ```
 
-Learning git too! 
+Learning git too! (currently working out a shell script to 1line commits :D)
