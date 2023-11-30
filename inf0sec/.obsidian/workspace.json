@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "637842239f3770a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,11 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "12dc27dec4b9c80d",
+  "active": "637842239f3770a0",
   "lastOpenFiles": [
     "Linux/investigate further.md",
     "LINKS.md",
     "pwntools.md",
+    "Enumeration/Methods.md",
     "Linux/git.md",
     "Forensics/Network/Wireshark.md",
     "Forensics/Network",
