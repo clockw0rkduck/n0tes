@@ -58,3 +58,5 @@ username = USERNAME
 	cmd = "codium --wait --diff $LOCAL $REMOTE"
 
 ```
+
+Learning git too! 
